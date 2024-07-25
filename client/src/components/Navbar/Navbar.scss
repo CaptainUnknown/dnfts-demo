@@ -1,0 +1,26 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: var(--nav-height);
+  width: 100%;
+  background-color: var(--primary-transparent);
+  padding: 0 1.5rem;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+
+  img {
+    aspect-ratio: 1/1;
+    width: 35px;
+    margin-right: 20px;
+    filter: brightness(0) grayscale(1) invert(1);
+  }
+
+  p {
+    font: var(--font);
+    font-weight: 900;
+    font-size: 2rem;
+  }
+}
