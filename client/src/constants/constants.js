@@ -1,6 +1,4 @@
-export const dNFTAddress = "0x3c04fA6772202a2c80acFe2C4Af6cc434aEE9Db2"; // Eth Sepolia
-
-export const chainLinkSubscriptionId = "11418";
+export const dNFTAddress = "0x70aa5adbba0a9d4613e7a47d1e059b84a5a244b8"; // Avalanche Fuji
 
 export const ipfsGateway = "https://whoopdoop.infura-ipfs.io/ipfs/";
 
