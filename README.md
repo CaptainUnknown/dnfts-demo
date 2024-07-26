@@ -22,31 +22,31 @@ To run the DApp locally, follow these steps:
 
 1. Deploy the ``dNFT.sol`` Smart Contract provided in ``/contracts/``.
 2. Create a [Chainlink Function Subcription](https://functions.chain.link/). Once done, retrieve the ``subscriptionId``.
-2. Clone the repository:
+3. Clone the repository:
 ```
 git clone https://github.com/CaptainUnknown/dnfts-demo.git
 ```
-3. Copy the address of your deployed contracts and add it to the constants file, along with any other required information:
+4. Copy the address of your deployed contracts and add it to the constants file, along with any other required information:
 ```
 cd dnfts-demo/client
 nano src/Constant/constants.js
 ``` 
-4. Install the dependencies:
+5. Install the dependencies:
 ```
 npm install
 ```
-5. Serve the DApp using the following command:
+6. Serve the DApp using the following command:
 ```
 npm run start
 ```
-6. Update the environment variables from ``.env.example``.
+7. Update the environment variables from ``.env.example``.
 ```
 cd ..
 cd serverless
 mv .env.example .env
 nano .env
 ```
-7. Navigate to the ``serverless`` directory & then run the app:
+8. Navigate to the ``serverless`` directory & then run the app:
 ```
 vercel dev
 ``` 
@@ -63,9 +63,12 @@ Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 - Access to certain features or attributes of an NFT can be controlled and triggered automatically based on external conditions or user actions.
 
 ## Screenshots
-1. DApp Prevew:
+### 1. DApp Prevew:
 <br />
 <img src="https://i.imgur.com/rXM2vUf.png" alt="DApp Preview" style="width:400px;"/>
 
-2. Functioning:
+### 2. Functioning:
 <img src="https://i.imgur.com/z9C6WJA.gif" alt="recorded functioning" style="width:800px;"/>
+
+### 3. Sequence Overview:
+<img src="https://i.imgur.com/U9HHaeM.png" alt="recorded functioning" style="width:800px;"/>
